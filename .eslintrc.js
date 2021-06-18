@@ -74,6 +74,7 @@ module.exports = {
         assert: "either",
       },
     ],
+    "react/jsx-props-no-spreading": "off",
     "react/require-default-props": 0,
     "react/jsx-filename-extension": [
       1,
@@ -91,7 +92,6 @@ module.exports = {
     ],
     quotes: [
       2,
-      "single",
       {
         avoidEscape: true,
         allowTemplateLiterals: true,
@@ -101,7 +101,7 @@ module.exports = {
       "error",
       {
         trailingComma: "es5",
-        singleQuote: true,
+        singleQuote: false,
         printWidth: 80,
         // for Windows prettier error
         endOfLine: "auto",
